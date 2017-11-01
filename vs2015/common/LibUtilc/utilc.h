@@ -18,8 +18,8 @@
 #pragma warning(disable:4251)
 #pragma warning(disable:4800)
 
-#include "../../../Include/MacDef.h"
-#include "../../../Include/ConstantDef.h"
+#include "../../Include/MacDef.h"
+#include "../../Include/ConstantDef.h"
 
 
 #endif

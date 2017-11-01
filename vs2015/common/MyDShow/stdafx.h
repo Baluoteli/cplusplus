@@ -34,8 +34,15 @@
 #include <afxcontrolbars.h>     // 功能区和控件条的 MFC 支持
 
 
+#include "../../Include/ConstantDef.h"
+#include "../../include/MacDef.h"
 
-
+#include "../LibUtilc/Interface_Utilc.h"
+#ifdef DEBUG
+#pragma comment(lib,"../../bind/LibUtilc.lib")
+#else
+#pragma comment(lib,"../../bin/LibUtilc.lib")
+#endif
 
 
 

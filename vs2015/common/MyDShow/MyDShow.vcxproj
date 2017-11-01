@@ -187,8 +187,6 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Include\ConstantDef.h" />
-    <ClInclude Include="..\..\..\Include\MacDef.h" />
     <ClInclude Include="MyDShow.h" />
     <ClInclude Include="MyDShowDlg.h" />
     <ClInclude Include="Resource.h" />

@@ -100,9 +100,7 @@ BOOL CMyDShowDlg::OnInitDialog()
 
 	// TODO: 在此添加额外的初始化代码
 	std::string sAbsolutePath = plusFCL_BTL::getAbsoluteDir();
-	std::string sRelativePath = plusFCL_BTL::getRelativeDir();
 	TRACE("DllgetInterface 1 return : %s\n",sAbsolutePath.c_str()); 
-	TRACE("DllgetInterface 2 return : %s\n",sRelativePath.c_str());
 
 	return TRUE;  // 除非将焦点设置到控件，否则返回 TRUE
 }
