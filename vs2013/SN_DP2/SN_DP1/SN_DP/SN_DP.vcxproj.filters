@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Devices">
+      <UniqueIdentifier>{1d3d17bc-25d5-4c54-bae7-1cd6767c9e95}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SN_DP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AgoraVideoCapture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AgoraVideoPlay.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AgoraManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AGEngineEventHandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AGEventDef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AgoraAudInputManager.h">
+      <Filter>Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="AgoraCameraManager.h">
+      <Filter>Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="AgoraPlayoutManager.h">
+      <Filter>Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="AGResourceVisitor.h">
+      <Filter>Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtendVideoFrameObserver.h">
+      <Filter>Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtendAudioFrameObserver.h">
+      <Filter>Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="YUVTrans.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AgoraPlayerCapture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CicleBuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SN_DP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AgoraVideoCapture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AgoraVideoPlay.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AgoraManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AGEngineEventHandler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AgoraAudInputManager.cpp">
+      <Filter>Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="AgoraCameraManager.cpp">
+      <Filter>Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="AgoraPlayoutManager.cpp">
+      <Filter>Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="AGResourceVisitor.cpp">
+      <Filter>Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtendVideoFrameObserver.cpp">
+      <Filter>Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtendAudioFrameObserver.cpp">
+      <Filter>Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="YUVTrans.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AgoraPlayerCapture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CicleBuffer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SN_DP.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="SN_DP.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="logo.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
